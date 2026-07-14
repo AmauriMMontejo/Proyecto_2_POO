@@ -16,7 +16,7 @@ export class CallManager {
 
     public saveCall(call: CallForm): void {
         this.registry.push(call);
-        console.log(`[Singleton] Llamada guardada. Total registradas: ${this.registry.length}`);
+        console.log(`Llamada guardada. Total registradas: ${this.registry.length}`);
     }
 
     public getCalls(): CallForm[] {
